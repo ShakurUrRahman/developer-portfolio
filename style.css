@@ -7,11 +7,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .greenish {
     color: cadetblue;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -44,4 +48,28 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.section3 {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item {
+    box-shadow: 10px 10px 40px grey;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border-left: 7px solid blue;
+}
+
+.leftBox {
+    border-left: 7px solid orange;
+}
+
+footer p {
+    text-align: center;
 }
